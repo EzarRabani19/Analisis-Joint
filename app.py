@@ -22,9 +22,9 @@ st.markdown(
 # =====================================================================
 if "joint_table" not in st.session_state:
   st.session_state["joint_table"] = pd.DataFrame([
-      {"Joint Set": "Joint Set 1", "Dip": 19.0, "Dip Direction": 30.0},
-      {"Joint Set": "Joint Set 2", "Dip": 90.0, "Dip Direction": 80.0},
-      {"Joint Set": "Joint Set 3", "Dip": 5.0, "Dip Direction": 250.0},
+      {"Joint Set": "Joint Set 1", "Dip": 0.0, "Dip Direction": 0.0},
+      {"Joint Set": "Joint Set 2", "Dip": 0.0, "Dip Direction": 0.0},
+      {"Joint Set": "Joint Set 3", "Dip": 0.0, "Dip Direction": 0.0},
   ])
 
 # =====================================================================

@@ -50,7 +50,7 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("Isi Cepat Parameter Tugas")
 tgl_lahir = st.sidebar.number_input("Tanggal Lahir (Dip J1)")
 nim_3digit = st.sidebar.number_input(
-    "3 Digit Akhir NIM (Dip Dir J2)", 0, 360, 80, 1
+    "3 Digit Akhir NIM (Dip Dir J2)"
 )
 
 if st.sidebar.button("Reset ke Data Tugas Default", use_container_width=True):

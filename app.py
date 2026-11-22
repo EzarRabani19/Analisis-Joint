@@ -7,11 +7,11 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(
-    page_title="Analisis Kinematik Joint Set - Stereonet _ By Ezar",
+    page_title="Analisis Kinematik Joint Set - Stereonet",
     layout="wide",
 )
 
-st.title("Analisis Kinematik Perpotongan Joint Set (Stereonet)")
+st.title("Analisis Kinematik Perpotongan Joint Set (Stereonet) - By Ezar")
 st.markdown(
     "Edit langsung nilai **Dip** dan **Dip Direction** pada tabel, atau"
     " gunakan tombol di bawah tabel untuk menambah dan menghapus *joint set*."

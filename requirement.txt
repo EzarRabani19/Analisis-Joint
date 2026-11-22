@@ -1,5 +1,0 @@
-streamlit
-matplotlib
-mplstereonet
-numpy
-pandas

@@ -48,7 +48,7 @@ show_poles = st.sidebar.checkbox("Tampilkan kutub bidang (Poles)", value=False)
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Isi Cepat Parameter Tugas")
-tgl_lahir = st.sidebar.number_input("Tanggal Lahir (Dip J1)", 1, 31, 1)
+tgl_lahir = st.sidebar.number_input("Tanggal Lahir (Dip J1)")
 nim_3digit = st.sidebar.number_input(
     "3 Digit Akhir NIM (Dip Dir J2)", 0, 360, 80, 1
 )
